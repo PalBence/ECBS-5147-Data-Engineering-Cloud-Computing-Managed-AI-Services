@@ -1,0 +1,1 @@
+ssh-keygen -t rsa -f ${CODESPACE_VSCODE_FOLDER}/assignments/assignment1/ceu_key -N ''
