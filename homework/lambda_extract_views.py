@@ -38,6 +38,7 @@ def lambda_handler(event, context):
         record = {
             "title": page["article"],
             "views": page["views"],
+            "rank": page["rank"],
             "date": date.strftime("%Y-%m-%d"),
             "retrieved_at": current_time.replace(tzinfo=None).isoformat(),
         }
